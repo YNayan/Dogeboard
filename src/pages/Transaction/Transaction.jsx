@@ -63,12 +63,7 @@ const Transaction = () => {
           </TabList>
           <TabPanels>
             <TabPanel>
-              <Box display={{ base: "none", md: "block" }}>
-                <TransactionTable />
-              </Box>
-              <Box display={{ base: "flex", md: "none" }}>
-                <p>implement the card funtionality over the table</p>
-              </Box>
+              <TransactionTable />
             </TabPanel>
             <TabPanel>
               <TransactionTable />
